@@ -65,7 +65,8 @@ Usage:
 2. ListPipelines
 Usage:
   - Result: Receives Pipelines List 
-People
+
+People:
 1. CreateNewPerson
 Usage:
   - Parameter: Receives a JSON string for CallRESTEndpoint body 
@@ -81,7 +82,7 @@ Usage:
   - Parameter: Receives a JSON string from CallRESTEndpoint body
   - Result: Receives person updated as a JSON string 
 
-4. Users
+Users:
 1. ListUsers
 Usage:
   - Result: Receives Users List 
@@ -95,19 +96,19 @@ Running the samples
 - Open and configure the settings. 
 - Create a directory at ‘C:\Temp\Copper\’ , for $.Settings.LogFile and $.Settings.WorkSheetPath in Linx Designer. TextFile log.txt and Excel sheet Report.xlsx will be created in ‘C:\Temp\Copper\’.  You can always change the paths in the settings according to your choice.
  
-CreateANewPerson
-  - Create a new person and saves the result in a log file in the path $.Settings.LogFile
+**CreateANewPerson**
+  - Creates a new person and saves the result in a log file in the path $.Settings.LogFile
 
-ListPipelines
+**ListPipelines**
   - Get Pipelines and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 3.
 
-SaveOpenOpportunities_In_Excel
+**SaveOpenOpportunities_In_Excel**
   - Get Opportunities list and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 2.
 
-SavePeople_In_Excel
+**SavePeople_In_Excel**
   - Get people and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 1.
 
-UpdatePerson
+**UpdatePerson**
   - Updates person and saves response from $.Settings.LogFile
        - Before running the UpdatePerson, open the file created in $.Settings.LogFile from CreateANewPerson.  Copy the id from the textfile 
 
