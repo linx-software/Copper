@@ -24,7 +24,7 @@ The provided sample includes:
 #### *Linx Designer*
 This solution was developed in the Linx Designer v5.20.2.0
 #### *Copper API*
-The version of the Copper API at the time of writing is 2021-05.
+The time of writing is 2021-05. 
 
 ### Pre-requisites
 
