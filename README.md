@@ -44,8 +44,8 @@ Open and Configure the Solution's $.Settings:
 
 1. Open the solution in your Linx Designer.
 1. Edit the $.Setting values:
-   1. CopperApiToken: Your **API Key**.
-   1. CopperEmail : Your Email
+   1. ApiToken: Your **API Key**.
+   1. Email : Your Email
 1. Save the Solution.
 ---
 
