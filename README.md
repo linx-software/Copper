@@ -44,8 +44,8 @@ Open and Configure the Solution's $.Settings:
 
 1. Open the solution in your Linx Designer.
 1. Edit the $.Setting values:
-   1. ApiToken: Your **API Key**.
-   1. Email : Your Email
+   1. CopperApiToken: Your **API Key**.
+   1. CopperEmail : Your Email
 1. Save the Solution.
 ---
 
@@ -57,7 +57,7 @@ Generic Templates
 Description: The templates can be used as follows:
 
 Opportunities:
-1. ListOpportunities_SearchBy
+1. ListOpportunitiesSearchBy
 Usage:
   - Parameter: Receives a JSON string for CallRESTEndpoint body 
   - Result: Receives Opportunity List 
@@ -72,7 +72,7 @@ Usage:
   - Parameter: Receives a JSON string for CallRESTEndpoint body 
   - Result: Receives person created as a JSON string
 
-2. ListPeople_SearchBy
+2. ListPeopleSearchBy
 Usage:
   - Parameter: Receives a JSON string for CallRESTEndpoint body
   - Result: Receives People List 
@@ -102,10 +102,10 @@ Running the samples
 **ListPipelines**
   - Get Pipelines and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 3.
 
-**SaveOpenOpportunities_In_Excel**
+**SaveOpenOpportunitiesInExcel**
   - Get Opportunities list and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 2.
 
-**SavePeople_In_Excel**
+**SavePeopleInExcel**
   - Get people and saves the data in the Excel sheet $.Settings.WorkSheetPath in Sheet 1.
 
 **UpdatePerson**
