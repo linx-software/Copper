@@ -116,4 +116,12 @@ Running the samples
 - Click on the Function UpdatePerson in the designer
 - In the properties window, in the parameters section, locate id and paste the id copied from the textfile above.
 
+## Contributing
+
+For questions please ask the [Linx community](https://linx/software/community) or use the [Slack channel](https://linxsoftware.slack.com/archives/C01FLBC1XNX). 
+
+## License
+
+[MIT](https://github.com/linx-software/template-repo/blob/main/LICENSE.txt)
+
 
