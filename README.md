@@ -87,12 +87,10 @@ Users:
 Usage:
   - Result: Receives Users List 
 Utilities
-  - FormatDate
-Usage:
-Converts a unix timestamp to datetime
+  - FormatDate: Converts a unix timestamp to datetime
 
 ---
-Running the samples
+## Usage:
 - Open and configure the settings. 
 - Create a directory at ‘C:\Temp\Copper\’ , for $.Settings.LogFile and $.Settings.WorkSheetPath in Linx Designer. TextFile log.txt and Excel sheet Report.xlsx will be created in ‘C:\Temp\Copper\’.  You can always change the paths in the settings according to your choice.
  
