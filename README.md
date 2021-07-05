@@ -1,6 +1,6 @@
 ﻿# Copper Integration
 
-## Overview
+## Description
 
 The provided sample includes:
 
@@ -20,7 +20,7 @@ The provided sample includes:
 
 ---
 
-## Dependencies
+## Installation
 #### *Linx Designer*
 This solution was developed in the Linx Designer v5.20.2.0
 #### *Copper API*
@@ -49,7 +49,7 @@ Open and Configure the Solution's $.Settings:
 1. Save the Solution.
 ---
 
-## Using the sample
+## Usage
 
 ---
 
@@ -90,7 +90,7 @@ Utilities
   - FormatDate: Converts a unix timestamp to datetime
 
 ---
-## Usage:
+## Running the sample:
 - Open and configure the settings. 
 - Create a directory at ‘C:\Temp\Copper\’ , for $.Settings.LogFile and $.Settings.WorkSheetPath in Linx Designer. TextFile log.txt and Excel sheet Report.xlsx will be created in ‘C:\Temp\Copper\’.  You can always change the paths in the settings according to your choice.
  
